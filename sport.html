@@ -1,0 +1,57 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Sport · AURA</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <script defer src="script.js"></script>
+    </head>
+    <body>
+    <header class="topbar">
+      <div class="brand">AURA</div>
+      <div class="subtitle">clean girl tracker</div>
+    </header>
+    <main class="container">
+
+  <h1>Sport tracker</h1>
+  <div class="section">
+    <form id="sport-form" class="grid">
+      <div>
+        <label class="small">Date</label>
+        <input class="input" type="date" name="date">
+      </div>
+      <div>
+        <label class="small">Activity</label>
+        <input class="input" type="text" name="activity" placeholder="Run, gym, yoga…">
+      </div>
+      <div>
+        <label class="small">Minutes</label>
+        <input class="input" type="number" name="mins" min="1" placeholder="30">
+      </div>
+      <div style="display:flex;align-items:flex-end"><button class="button" type="submit">Save</button></div>
+    </form>
+  </div>
+  <div class="section">
+    <h2>History</h2>
+    <table class="table">
+      <thead><tr><th>Date</th><th>Activity</th><th>Duration</th></tr></thead>
+      <tbody id="sport-rows"></tbody>
+    </table>
+  </div>
+    <div class="toast" role="status" aria-live="polite"></div>
+</main>
+    <nav class="bottom-nav">
+    <a class="nav-item" data-key="home" href="index.html"><img alt="" src="assets/icons/home.svg"><span>Home</span></a>
+<a class="nav-item" data-key="glow" href="glow-shelf.html"><img alt="" src="assets/icons/glow.svg"><span>Glow</span></a>
+<a class="nav-item" data-key="period" href="period.html"><img alt="" src="assets/icons/period.svg"><span>Period</span></a>
+<a class="nav-item active" data-key="sport" href="sport.html"><img alt="" src="assets/icons/sport.svg"><span>Sport</span></a>
+<a class="nav-item" data-key="journal" href="journal.html"><img alt="" src="assets/icons/journal.svg"><span>Journal</span></a>
+<a class="nav-item" data-key="mood" href="mood.html"><img alt="" src="assets/icons/mood.svg"><span>Mood</span></a>
+<a class="nav-item" data-key="routine" href="routine.html"><img alt="" src="assets/icons/routine.svg"><span>Routine</span></a>
+    </nav>
+    </body>
+    </html>

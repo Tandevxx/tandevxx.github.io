@@ -1,0 +1,47 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Period Tracker · AURA</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <script defer src="script.js"></script>
+    </head>
+    <body>
+    <header class="topbar">
+      <div class="brand">AURA</div>
+      <div class="subtitle">clean girl tracker</div>
+    </header>
+    <main class="container">
+
+  <h1>Period tracker</h1>
+  <div class="section">
+    <form id="period-form" class="grid">
+      <div>
+        <label class="small">Last period start</label>
+        <input class="input" type="date" name="last">
+      </div>
+      <div>
+        <label class="small">Cycle length (days)</label>
+        <input class="input" type="number" name="cycle" min="20" max="60" value="28">
+      </div>
+    </form>
+    <div class="tag">Estimated next period</div>
+    <h2 id="period-next" style="margin-top:6px">—</h2>
+  </div>
+    <div class="toast" role="status" aria-live="polite"></div>
+</main>
+    <nav class="bottom-nav">
+    <a class="nav-item" data-key="home" href="index.html"><img alt="" src="assets/icons/home.svg"><span>Home</span></a>
+<a class="nav-item" data-key="glow" href="glow-shelf.html"><img alt="" src="assets/icons/glow.svg"><span>Glow</span></a>
+<a class="nav-item active" data-key="period" href="period.html"><img alt="" src="assets/icons/period.svg"><span>Period</span></a>
+<a class="nav-item" data-key="sport" href="sport.html"><img alt="" src="assets/icons/sport.svg"><span>Sport</span></a>
+<a class="nav-item" data-key="journal" href="journal.html"><img alt="" src="assets/icons/journal.svg"><span>Journal</span></a>
+<a class="nav-item" data-key="mood" href="mood.html"><img alt="" src="assets/icons/mood.svg"><span>Mood</span></a>
+<a class="nav-item" data-key="routine" href="routine.html"><img alt="" src="assets/icons/routine.svg"><span>Routine</span></a>
+    </nav>
+    </body>
+    </html>
