@@ -1,12 +1,12 @@
 :root{
-  --bg:#fff;
+  --bg:#faf8f3;
   --card:#ffffff;
-  --ink:#111111;
-  --muted:#6b7280;
-  --accent:#ff6b9e;
-  --accent-weak:#ffd7e6;
-  --line:#f2f2f3;
-  --shadow: 0 6px 30px rgba(0,0,0,0.06);
+  --ink:#2d2d2d;
+  --muted:#948f89;
+  --accent:#eac8a8;
+  --accent-weak:#f3e4d4;
+  --line:#ede7dd;
+  --shadow: 0 8px 30px rgba(0,0,0,0.05);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif}
